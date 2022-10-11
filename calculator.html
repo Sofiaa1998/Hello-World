@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<script>
+    //calculator program
+var a = prompt("Enter a number")
+a = Number(a);
+var operator = prompt("Choose an operator (+,-,*,/)")
+var b = prompt("Enter another number")
+b = Number(b);
+
+//Diffrent IF statments to output the answar
+if (operator == "+") {
+   a + b;
+   alert(a+b);
+}
+else if (operator == "-") {
+   a - b;
+   alert(a-b);
+}
+
+else if (operator == "*") {
+   a * b;
+   alert(a*b);
+}
+
+else if (operator == "/") {
+   a / b;
+   alert(a/b);
+}
+//If antyning other than numbers or operators are used
+else {
+    alert("That is not a vaild number or operator");
+}
+
+</script>
